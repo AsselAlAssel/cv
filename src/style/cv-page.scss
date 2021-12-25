@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.cv-page {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    .data-part {
+        width: 33%;
+        background-color: #225484;
+        padding: 100px 0px;
+        transition: 1s ease-in-out;
+        -webkit-transition: 1s ease-in-out;
+        -moz-transition: 1s ease-in-out;
+        -ms-transition: 1s ease-in-out;
+        -o-transition: 1s ease-in-out;
+    }
+    .education-part {
+        width: 67%;
+        padding: 80px 0px;
+        padding-left: 40px;
+    }
+}

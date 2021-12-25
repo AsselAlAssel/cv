@@ -1,0 +1,56 @@
+$color-tect: #a7a7a7;
+.education-part {
+    img {
+        display: none;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    .education {
+        span {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 18px;
+        }
+        .date-of-education-start-end {
+            font-size: 14px;
+            color: $color-tect;
+        }
+    }
+    .courses {
+        margin-top: 70px;
+        width: 60%;
+        .course-item {
+            margin-bottom: 30px;
+            margin-left: 20px;
+        }
+    }
+    .course-name,
+    .project-name {
+        font-size: 21px;
+        font-weight: 500;
+    }
+    .course-name {
+        display: block;
+        margin-bottom: 7px;
+    }
+    .course-date,
+    .project-url {
+        color: $color-tect;
+        text-decoration: none;
+    }
+    .course-desc,
+    .project-desc {
+        margin-left: 20px;
+    }
+    .projects {
+        width: 60%;
+        .project-item {
+            margin-bottom: 40px;
+            div {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+}

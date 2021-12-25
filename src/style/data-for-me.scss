@@ -1,0 +1,94 @@
+.data-part {
+    color: #fff;
+    .pic-name-jop {
+        text-align: center;
+    }
+    img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    h1 {
+        font-size: 45px;
+        font-weight: 400;
+        position: relative;
+    }
+    h1:before {
+        content: "";
+        width: 40%;
+        height: 2px;
+        background-color: rgba(255, 255, 255, .7);
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        transform: translate(-50%);
+        -webkit-transform: translate(-50%);
+        -moz-transform: translate(-50%);
+        -ms-transform: translate(-50%);
+        -o-transform: translate(-50%);
+    }
+    .jop {
+        padding: 20px;
+        letter-spacing: 3px;
+    }
+    //for data where i live
+    .data {
+        text-align: left;
+        span {
+            display: block;
+            margin-bottom: 4px;
+        }
+    }
+    // for date of birth
+    .date-of-birth {
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: left;
+        font-size: 10px;
+        margin: 15px 0px;
+        font-size: rgba(255, 255, 255, .6);
+    }
+    .skills-information {
+        padding-left: 30px;
+        .skills-part {
+            margin-top: 150px;
+        }
+        .skill-itme {
+            display: flex;
+            margin-bottom: 25px;
+            div {
+                height: 100%;
+            }
+            .name-of-skill {
+                margin-left: 10px;
+                font-size: 18px;
+            }
+            .stage-spane {
+                height: auto;
+                display: flex;
+                align-items: center;
+                span {
+                    float: left;
+                    width: 7px;
+                    height: 7px;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                    margin-left: 4px;
+                }
+                .active {
+                    background-color: #fff;
+                }
+                .no-active {
+                    background-color: rgba(204, 204, 204, .6);
+                }
+            }
+        }
+    }
+}
