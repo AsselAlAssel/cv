@@ -3,28 +3,13 @@ import "../style/data-for-me.scss";
 import pic from "../pic.jpg";
 import Details from "./details";
 import Skills from "./skills";
+import { detailsArr , skillsArr , ClickExit } from "./dataAndFuncions";
+import exit  from "../exit.png"
 
-var detailsArr = [
-  "Rummaneh",
-  "Jenin",
-  "Palesine",
-  "0595774519",
-  "aseel1234500000@gmail.com",
-];
-var skillsArr = [
-  { name: "c++", stage: 3 },
-  { name: "java", stage: 3 },
-  { name: "HTml &CSS", stage: 3 },
-  { name: "Javascript", stage: 2 },
-  { name: "React", stage: 2 },
-  { name: "SQL", stage: 3 },
-  { name: "Git", stage: 1 },
-  { name: "Design Patterns", stage: 2 },
-  { name: "Data Struchtures", stage: 3 },
-];
 const DataForMe = () => {
   return (
     <div className="data-part">
+      <img className="exit" src={exit} alt="exit" onClick={ClickExit} />
       <div className="pic-name-jop">
         <img src={pic} alt="my pic" />
         <h1>Assel Khalid Alali</h1>

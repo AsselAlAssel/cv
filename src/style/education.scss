@@ -37,7 +37,10 @@ $color-tect: #a7a7a7;
     .course-date,
     .project-url {
         color: $color-tect;
-        text-decoration: none;
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
     }
     .course-desc,
     .project-desc {
@@ -50,6 +53,11 @@ $color-tect: #a7a7a7;
             div {
                 display: flex;
                 justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+                p {
+                    width: 50%;
+                }
             }
         }
     }

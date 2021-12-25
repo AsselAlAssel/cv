@@ -4,10 +4,18 @@
         width: 95%;
         .data-part {
             width: 70%;
-            height: 100%;
             z-index: 9;
             position: absolute;
-            margin-left: -1000px;
+            left: -700px;
+            .exit {
+                position: absolute;
+                display: block;
+                width: 32px;
+                height: 32px;
+                top: 20px;
+                right: 20px;
+                cursor: pointer;
+            }
         }
         .education-part {
             width: 100%;
@@ -18,9 +26,21 @@
                 cursor: pointer;
             }
         }
+        .projects,
+        .courses {
+            width: 100%;
+        }
+        .education-part {
+            .projects {
+                .project-item {
+                    div {
+                        p {
+                            margin: 5px;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
     }
-}
-
-.style {
-    margin-left: 1000px;
 }

@@ -43,7 +43,30 @@ export const projectArr = [
   },
 ];
 
+export const detailsArr = [
+  "Rummaneh",
+  "Jenin",
+  "Palesine",
+  "0595774519",
+  "aseel1234500000@gmail.com",
+];
+export const skillsArr = [
+  { name: "c++", stage: 3 },
+  { name: "java", stage: 3 },
+  { name: "HTml &CSS", stage: 3 },
+  { name: "Javascript", stage: 2 },
+  { name: "React", stage: 2 },
+  { name: "SQL", stage: 3 },
+  { name: "Git", stage: 1 },
+  { name: "Design Patterns", stage: 2 },
+  { name: "Data Struchtures", stage: 3 },
+];
+
 export const ClickMenu = () => {
   console.log("10");
-  document.querySelector(".data-part").classList.toggle(".style");
+  document.querySelector(".data-part").style.left="0px";
+};
+export const ClickExit = () => {
+  console.log("11");
+  document.querySelector(".data-part").style.left="-1000px";
 };

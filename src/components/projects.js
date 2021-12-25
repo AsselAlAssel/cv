@@ -7,8 +7,9 @@ const Projects=(props)=>{
                 return(
                     <div className='project-item' key={Math.random()}>
                         <div>
-                        <span className='project-name'>{item.name}</span>
-                        <a className='project-url' href={item.url} >{item.url}</a>
+                        <p className='project-name'>{item.name}</p>
+                        <p className='project-url'><a  href={item.url} >{item.url}</a></p>
+                        
                         </div>
                         <p className='project-desc'>{item.desc}</p>
 
